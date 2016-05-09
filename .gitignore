@@ -7,3 +7,4 @@ dalek.egg-info
 oot.egg-info
 AUTHORS
 ChangeLog
+*.pyc
