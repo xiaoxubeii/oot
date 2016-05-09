@@ -29,6 +29,8 @@ except ImportError:
 
 ver = '0.1.0'
 setuptools.setup(
+    setup_requires=['pbr>=1.8'],
+    pbr=True,
     name='oot',
     version=ver,
     packages=setuptools.find_packages(), )
